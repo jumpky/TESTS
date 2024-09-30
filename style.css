@@ -1,3 +1,11 @@
+h1{
+    text-align: center;
+}
+
+a{
+    color: black;
+}
+
 body {
     font-family: sans-serif;
 }
@@ -40,4 +48,13 @@ button {
     color: white;
     border: none;
     cursor: pointer;
+    transition: transform 0.2s; /* Добавляем плавный переход для transform */
+}
+
+button:hover {
+    transform: scale(1.2); /* Увеличиваем размер при наведении */
+}
+
+button:active {
+    background-color: red; /* Меняем цвет на красный при нажатии */
 }
